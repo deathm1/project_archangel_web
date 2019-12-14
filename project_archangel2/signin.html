@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign In //Archangel</title>
+        <link rel="stylesheet" type="text/css" href="visual.css"/>
+        <link rel="stylesheet" type="text/css" href="w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <meta name="google-signin-client_id" content="99624552762-abq7hv7bp652l6cbqng282vt7bsu98g6.apps.googleusercontent.com">
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <link rel="stylesheet" type="text/css" href="bstrp.css"/>
+        <script src="jquery.js"></script>
+        <script src="proper.js"></script>
+        <script src="bstrp.js"></script>
+        <script src="ctl.js"></script>
+
+
+    </head>
+
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="home.html"><img src="images/ArchangelLogo2_i.png" width="20" height="20"></a>
+            <a href="downloads.html" style="text-decoration: none;">Downloads</a>
+            <a href="engineering.html" style="text-decoration: none;">Engineering</a>
+            <a href="community.html" style="text-decoration: none;">Community</a>
+            <a href="about.html" style="text-decoration: none;">About</a>
+            <a id="si_nav" href="signin.html" style="text-decoration: none;" class="w3-right active" ><p2 id="val">Sign In</p2></a>
+            <a class="w3-right"><div id = "gsigninbtn" class="g-signin2" data-onsuccess="onSignIn"></div></a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars" ></i>
+            </a>
+        </div>
+            <div class="container-fluid" style="margin-top: 10px; ">
+                    <div class="row">
+                      <div class="col-sm-3" id="user_col" style="margin: 10px;" >
+                        <div id="user_data" class= "udata">
+                            <h2>Profile Details</h2>
+                            <p>E-Mail Address<p id="email" >E-Mail Address</p></p>
+                            <img class="img-thumbnail" id = "ppic" width="200" height="200"/>
+                            <p>
+                                <br>
+                            </p>
+                            <div style="text-align: center;"><div style="margin: 10px; text-align: center;" id = "sod"><div style="text-align: center;"><button class="btn btn-danger" id = "gsignoutbtn" onclick="signOut();">Sign Out</button></div></div></div>
+                        </div>
+                      </div>
+
+
+                      <div class="col-sm-8" id="user_colex1" style="margin: 10px;">
+
+                        <div class="container-fluid" style="margin: 10px;" >
+                            <div class="row">
+                              <div class="col-sm-3">
+                                <ul>
+                                    <li><a href="#home">Archangel EDA Desktop</a></li>
+                                    <li><a href="#news">Archangel EDA Android</a></li>
+                                    <li><a href="#contact">Feedback</a></li>
+                                    <li><a href="#about">Help</a></li>
+                                
+                                  </ul>
+                            </div>
+
+                              <div class="col-sm-9">
+
+                                <h1 id="h1">Test</h1>
+                                <p>This is also test</p>
+                                <h1 id="h1">Test</h1>
+                                <p>This is also test</p>
+                                <h1 id="h1">Test</h1>
+                                <p>This is also test</p>
+                                <h1 id="h1">Test</h1>
+                                <p>This is also test</p>
+                                <h1 id="h1">Test</h1>
+                                <p>This is also test</p>
+
+
+                            </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+    </body>
+</html>

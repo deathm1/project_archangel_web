@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#particles-js{
+    background-color: #000;
+    background-image: url("images/arch_1080.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    margin-top: 25px;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: aliceblue;
+    background-image: url("images/ArchangelLogo2_i.png");
+
+}
+.intro{
+    color: aliceblue;
+    font-family: sans-serif;
+    align-content: center;
+    font-size: 80px;
+}
+
+
+.centered {
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    top: 20%;
+    left: 50%;
+    font-size: 70px;
+    transform: translate(-50%, -50%);
+  }
+
+  .centered1 {
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    bottom: 20%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+  }

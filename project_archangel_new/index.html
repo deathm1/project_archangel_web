@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Archangel // Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="visual.css">
+
+        <script src="ctl.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="bstrp.css"/>
+
+        <script >
+            $(document).ready(function(){
+                $("#obtn").fadeIn(1000);
+                $("#cmain").fadeIn(1000);
+                $("#logo").fadeIn(1000);
+                $("#des").fadeIn(1000);
+                $("#get").fadeIn(1100);
+                $(".sidebar").css("border","0px");
+
+                $("#geti").click(function(){
+                $("#logo").fadeOut();
+                $("#cmain").fadeOut();
+                $("#des").fadeOut();
+                $("#get").fadeOut();
+                $("#apps").fadeIn(4000);
+                $("#downloads").fadeIn(7500);
+            });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="mySidebar"  class="sidebar" >
+            <a href="javascript:void(0)" style="text-decoration: none;" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html" style="text-align: center;"> <img width="64" height="64" src="images/ArchangelLogo2_i.png"/></a>
+            <a href="#" style="text-align: center; text-decoration: none;">Engineering</a>
+            <a href="#"style="text-align: center; text-decoration: none;">Downloads</a>
+            <a href="#"style="text-align: center; text-decoration: none;">About</a>
+            <a href="#" style="text-align: center; text-decoration: none; color:#76FF03 ">Login</a>
+        </div>
+        <div id="main">
+            <button class="openbtn" id="obtn" style="position: fixed; display: none;" onclick="openNav()">☰</button>
+        </div>
+        <div id="logo">
+            <img width="128" height="128" src="images/ArchangelLogo2_i.png"/>
+        </div>
+        <div id="cmain" style="font-size: 50px; display:none; text-align: center;color: #fff;">Project Archangel</div>
+        <div id="des" style="font-size: 15px; display:none; text-align: center;color: #fff;">Open Source Electronic Design Automation</div>
+        <div id="get" >
+            <a href="#" id="geti">
+                    Learn More
+            </a>
+        </div>
+        <div id="apps">
+                <h2 style="text-align: center; color: #ffffff;">Welcome To Project Archangel</h2>
+                <p style="font-size: 13px; text-align: center; color: #ffffff;" >Archangel is a set of tools developed for design automation in electronics engineering.<br>
+                    It utilizes advancements in computer science engineering, to fetch results of complex computations.<br>
+                    It is open source,  which means anyone can contribute.<br><br>
+                    Design with love In INDIA
+                </p>
+            </div>
+            <div id="downloads" style="display: none;">
+                    <a href="downloads.html" id="geti">
+                            Downloads
+                    </a>
+                </div>
+    </body>
+</html> 
+
+

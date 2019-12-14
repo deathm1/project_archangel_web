@@ -1,0 +1,147 @@
+body {
+    font-family: "Lato", sans-serif;
+    background: #000000;
+    font-family: sans-serif;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 60px;
+    border: 1px solid #2962FF;
+    border-radius: 10px;
+    text-decoration: none;
+
+  }
+  
+  .sidebar a {
+    border-radius: 10px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #2962FF;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 16px;
+  }
+  
+  .openbtn:hover {
+    background-color: #2962FF;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+
+
+  #des{
+    margin: 10px;
+  }
+
+#logo{
+    text-align: center;
+    margin: 20px;
+    display: none;
+}
+#cmain{
+  text-align: center;
+  color: #fff;
+  letter-spacing: 20px;
+  font-weight: bold;
+}
+
+
+#get{
+  margin: 100px;
+  color: #fff;
+  top: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: none;
+  
+  
+}
+
+#geti{
+  margin: 10px;
+  text-decoration: none;
+  color: #76FF03;
+  font-size: 30px;
+  border-radius: 10px;
+  
+  
+}
+
+
+#col1{
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #76FF03;
+  border-radius: 16px;
+  margin: 10px;
+  
+ }
+ #col2{
+  margin: 10px;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #76FF03;
+  border-radius: 16px;
+
+}
+
+
+#apps{
+  margin-top: 50px;
+  display: none ;
+  font-style: italic;
+  letter-spacing: 3px;
+}
+
+#loginbtn:hover{
+
+  background-color: #2962FF;
+}
+
+#downloads{
+  text-align: center;
+}
+
+
